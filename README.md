@@ -16,4 +16,4 @@ by mingmeng in 2018/06/15 13:42
 
 附：小程序码（目前正在上线审核中）
 
-![](C:\Users\HP\Desktop\cet\small_app_code.jpg)
+![](small_app_code.jpg)
