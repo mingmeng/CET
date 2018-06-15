@@ -1,0 +1,43 @@
+/**index.wxss**/
+@import "../../lib/weui.wxss";
+
+view.banner-view {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+view.weui-cell {
+  border: none;
+}
+
+image.banner {
+  width: 100%;
+  height: 100%;
+}
+
+button.btn {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #79c3f6;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+button.top {
+  margin-top: 60px;
+}
+
+input {
+  display: block;
+  border-bottom: 1px;
+  width: 70%;
+}
+
+text.tip{
+  display: block;
+  color: #cfcfcf;
+  font-size: 12px;
+  margin: 0 auto;
+  width: 70%;
+}

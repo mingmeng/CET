@@ -1,0 +1,72 @@
+/* pages/grade.wxss */
+
+text {
+  font-family: "MicroSoft YaHei";
+}
+
+/* view {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+view.flex-item {
+  margin-bottom: 20rpx;
+  width: 100%;
+  line-height: 30px;
+}
+
+view.word {
+  display: block;
+  float: left;
+  margin-right: 10 px;
+  width: 100 px;
+  color: #7ebde1;
+}
+
+view.value {
+  display: inline-block;
+  margin: 0 auto;
+  color: #ffb527;
+}
+
+view.info {
+  color: black;
+}
+
+view.item {
+  color: #ff7f50;
+}
+
+view.si {
+  font-size: 15px;
+  margin-left: 73px;
+  margin-bottom: 15px;
+  line-height: 15px;
+}
+
+view.flex-wrp {
+  margin: 0 auto;
+  height: 170 px;
+  width: 70%;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+view.banner-view {
+  width: 100%;
+  height: 120px;
+}
+
+image.banner {
+  width: 100%;
+  height: 100%;
+}
+
+button.quit {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #79c3f6;
+}

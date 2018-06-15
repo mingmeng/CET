@@ -1,0 +1,36 @@
+<view class='banner-view'>
+  <image class='banner' src='/img/query.jpg'>
+  </image>
+</view>
+<view class="flex-wrp">
+  <view class='flex-item'>
+    <view class='word info'><text decode="{{true}}">姓&emsp;&emsp;名：</text></view>
+    <view class="value">{{name}}</view>
+  </view>
+
+  <view class='flex-item'>
+    <view class='word info'>准考证号：</view>
+    <view class="value">{{id}}</view>
+  </view>
+
+  <view class='flex-item'>
+    <view class='word info'><text decode="{{true}}">总&emsp;&emsp;分：</text></view>
+    <view class="value">{{score}}</view>
+  </view>
+
+  <view class='flex-item si'>
+    <view class='word'><text decode="{{true}}">听&emsp;&emsp;力：</text></view>
+    <view class="value item">{{listen}}</view>
+  </view>
+
+  <view class='flex-item si'>
+    <view class='word'><text decode="{{true}}">阅&emsp;&emsp;读：</text></view>
+    <view class="value item">{{read}}</view>
+  </view>
+  <view class='flex-item si'>
+    <view class='word'><text decode="{{true}}">写&emsp;&emsp;作：</text></view>
+    <view class="value item">{{write}}</view>
+  </view>
+</view>
+
+<button class='quit' type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}"  bindtap='quit'> 退出 </button>

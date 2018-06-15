@@ -1,0 +1,25 @@
+<view class='banner-view'>
+  <image class='banner' src='/img/query.jpg'>
+  </image>
+</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell weui-cell_input">
+    <input id='id' class="weui-input" maxlength='15' type="number" placeholder="准考证号" bindinput='idInput' value="{{recognizeId}}" />
+  </view>
+</view>
+
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell weui-cell_input">
+    <input id='name' class="weui-input" type="text" placeholder="姓名" bindinput='nameInput' value="{{recognizeName}}" />
+  </view>
+</view>
+<text class='tip' decode='{{true}}'>Tips:在上面输入准考证号和姓名，然后点击查询成绩就可以查四六级成绩啦！\n 点击拍照识别按钮，上传四六级准考证照片，可以自动帮忙输入哦！（拍照识别功能目前不够稳定，还请认真核对所输入的名字和准考证号）</text>
+<!-- <view class='id'>
+  <input id='id' class="weui-input" maxlength='15' type="number" placeholder="准考证号" bindinput='idInput' value="{{recognizeId}}" />
+</view>
+<view class='name'>
+  <input id='name' class="weui-input" type="text" placeholder="姓名" bindinput='nameInput' value="{{recognizeName}}" />
+</view> -->
+<button type="primary" class='btn top' size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="getUserScore"> 查询成绩 </button>
+
+<button type="primary" class='btn' size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="getLocalPicture"> 拍照识别 </button>
